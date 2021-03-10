@@ -1,4 +1,5 @@
 {
+  "author": "Jeronimas Dargis",
   "name": "didactic-broccoli",
   "version": "0.0.1",
   "scripts": {
@@ -9,6 +10,10 @@
   "dependencies": {
     "vue": "^3.0.5"
   },
+  "files": [
+    "dist/*",
+    "src/**/*.vue"
+  ],
   "devDependencies": {
     "@vitejs/plugin-vue": "^1.1.5",
     "@vue/compiler-sfc": "^3.0.5",
