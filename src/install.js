@@ -1,4 +1,4 @@
-import * as components from "./components/globals";
+import * as components from "./components";
 
 const install = (Vue, options = {}) => {
   for (let key in components) {

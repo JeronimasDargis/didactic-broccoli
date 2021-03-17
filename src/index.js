@@ -12,7 +12,7 @@ const removeKeysFromObject = (object, keys) => {
   }, {});
 };
 
-const library = {
+const broccoli = {
   install(Vue, options) {
     let pluginComponents = Components;
 
@@ -29,6 +29,6 @@ const library = {
 
 createApp(App).mount("#app");
 
-export default library;
+export default broccoli;
 
 export * from "./components";

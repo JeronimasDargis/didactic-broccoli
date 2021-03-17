@@ -1,7 +1,7 @@
 {
   "author": "Jeronimas Dargis",
   "name": "didactic-broccoli",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
